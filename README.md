@@ -5,7 +5,7 @@
 1. Create a simple dimension table containing a subset of values.
 1. Create a huge non-partitoned table.
 1. Run a join query for non-partitioned table and dimension table and get the execution time.
-1. Create a huge partitoned table.
+1. Create an indentical huge table but partitoned.
 1. Run identical join query for partitioned table and dimension table and get the execution time.
 1. The execution time for the second query should be much better.
 
@@ -21,3 +21,36 @@
 * run.sh The executable bash file for bigsqltest.sh
 
 ## Configuration
+
+Modify bigsqltest.rc property file
+```bash
+#BIGSQLUSER=bigsql
+#BIGSQLPASSWORD=bigsql
+
+BIGSQLUSER=sb
+BIGSQLPASSWORD=secret123?
+
+#TABLESTORAGE="STORED AS PARQUETFILE"
+TABLESTORAGE="STORED AS ORC"
+
+#BIGSQLSIZE1=5000
+BIGSQLSIZE1=50000000
+#BIGSQLSIZE1=100000000
+#BIGSQLSIZE1=200000000
+#BIGSQLSIZE1=500000000
+#BIGSQLSIZE1=2000000000
+
+BIGSQLDIMTABLE=monit.testdim
+
+BIGSQLTABLE1=monit.testnon
+BIGSQLTABLE2=monit.testpart
+```
+Parameter name | Description | Sample value
+------------ | ------------- | ---
+BIGSQLUSER | User name for remote connection. For local connection should be commented out  |
+BIGSQLPASSWORD | User password for remote connection. For local connection should be commented out
+TABLESTORAGE | Storage type for Hive table | "STORED AS PARQUETFILE"
+BIGSQLSIZE1 | Number of rows created in huge table | 50000000
+BIGSQLDIMTABLE | The name of dimension table | monit.testdim
+BIGSQLTABLE1 | The name of non-partitoned table | monit.testnon
+BIGSQLTABLE2 | The name of non-partitoned table | monit.testpart
