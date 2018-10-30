@@ -20,6 +20,10 @@
 * runnonquery.sql Template SQL DML statement containing join query. The same query is used for both joins.
 * run.sh The executable bash file for bigsqltest.sh
 
+## Prerequisties
+
+The test can be executed using local or remote connection. For remote connection a DB2 client should be installed and access to remote BigSQL instance should be cataloged and working.
+
 ## Configuration
 
 Modify bigsqltest.rc property file
