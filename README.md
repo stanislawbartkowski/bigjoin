@@ -10,7 +10,7 @@
 1. The execution time for the second query should be much better.
 
 ## File description
-| File | Description
+|| File || Description
 ------------ | -------------
 bigsqltest.rc | Property file, should be configured before running the query
 bigsqltest.sh | Contains bash shell code for the test
