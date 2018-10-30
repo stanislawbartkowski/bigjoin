@@ -1,0 +1,91 @@
+Drop table monit.testnon
+Run createnonpartitionedtable.sql script
+Run insertrows.sql script
+Cannot execute insertrows.sql
+Exit immediately
+FAILED
+0.10user 0.13system 11:57.53elapsed 0%CPU (0avgtext+0avgdata 24136maxresident)k
+6176inputs+48outputs (1major+26429minor)pagefaults 0swaps
+Drop table monit.testnon
+Run createnonpartitionedtable.sql script
+Run insertrows.sql script
+Cannot execute insertrows.sql
+Exit immediately
+FAILED
+0.11user 0.15system 7:36.13elapsed 0%CPU (0avgtext+0avgdata 24136maxresident)k
+14616inputs+24outputs (3major+25926minor)pagefaults 0swaps
+Drop table monit.testnon
+Run createnonpartitionedtable.sql script
+Run insertrows.sql script
+Cannot execute insertrows.sql
+Exit immediately
+FAILED
+0.11user 0.14system 13:18.51elapsed 0%CPU (0avgtext+0avgdata 24128maxresident)k
+9888inputs+72outputs (2major+26425minor)pagefaults 0swaps
+Drop table monit.testnon
+Run createnonpartitionedtable.sql script
+Run insertrows.sql script
+PASSED
+0.11user 0.14system 8:39.90elapsed 0%CPU (0avgtext+0avgdata 24140maxresident)k
+64inputs+40outputs (0major+26433minor)pagefaults 0swaps
+Drop table monit.testnon
+Run createnonpartitionedtable.sql script
+Run insertrows.sql script
+Cannot execute insertrows.sql
+Exit immediately
+FAILED
+0.11user 0.15system 1:13:07elapsed 0%CPU (0avgtext+0avgdata 24136maxresident)k
+15024inputs+40outputs (3major+26456minor)pagefaults 0swaps
+Drop table monit.testnon
+Run createnonpartitionedtable.sql script
+Run insertrows.sql script
+Cannot execute insertrows.sql
+Exit immediately
+FAILED
+Drop table monit.testnon
+Run createnonpartitionedtable.sql script
+Run insertrows.sql script
+Cannot execute insertrows.sql
+Exit immediately
+FAILED
+Drop table monit.testnon
+Run createnonpartitionedtable.sql script
+Run insertrows.sql script
+Cannot execute insertrows.sql
+Exit immediately
+FAILED
+Drop table monit.testnon
+Run createnonpartitionedtable.sql script
+Run insertrows.sql script
+PASSED
+Drop table monit.testpart
+Run createpartitionedtable.sql script
+Run insertrows.sql script
+PASSED
+Drop table monit.testnon
+Run createnonpartitionedtable.sql script
+Run insertrows.sql script
+Cannot execute insertrows.sql
+Exit immediately
+FAILED
+Drop table monit.testnon
+Run createnonpartitionedtable.sql script
+Run insertrows.sql script
+PASSED
+Drop table monit.testpart
+Drop table monit.testpart
+Run createpartitionedtable.sql script
+Run createpartitionedtable.sql script
+Run insertrows.sql script
+Cannot execute createpartitionedtable.sql
+Exit immediately
+FAILED
+Cannot execute insertrows.sql
+Exit immediately
+FAILED
+Drop table monit.testpart
+Run createpartitionedtable.sql script
+Run insertrows.sql script
+Cannot execute insertrows.sql
+Exit immediately
+FAILED

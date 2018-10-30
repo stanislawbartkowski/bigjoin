@@ -1,0 +1,10 @@
+connect to bigsql XXconnectXX;
+
+CREATE HADOOP TABLE XXtableXX (ID VARCHAR(100), part INT);
+
+INSERT INTO XXtableXX VALUES('PART 2', 2);
+INSERT INTO XXtableXX VALUES('PART 3', 3);
+INSERT INTO XXtableXX VALUES('PART 4', 4);
+INSERT INTO XXtableXX VALUES('PART 5', 5);
+
+terminate;
