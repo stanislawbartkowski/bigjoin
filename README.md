@@ -1,5 +1,7 @@
 # Simple test to present the power of partiton elimination in BigSQL
 
+https://hoteljavaopensource.blogspot.com/2018/10/bigsql-joins-and-partition-elimination.html
+
 ## Test scenario
 
 1. Create a simple dimension table containing a subset of values.
