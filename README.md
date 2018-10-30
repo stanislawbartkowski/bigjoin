@@ -4,9 +4,9 @@
 
 1. Create a simple dimension table containing a subset of values.
 1. Create a huge non-partitoned table.
-1. Run a join query for non-partitioned table and dimension table and get the execution time.
+1. Run a join query between non-partitioned table and dimension table and get the execution time.
 1. Create an indentical huge table but partitoned.
-1. Run identical join query for partitioned table and dimension table and get the execution time.
+1. Run identical join query between partitioned table and dimension table and get the execution time.
 1. The execution time for the second query should be much better.
 
 ## File description
