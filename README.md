@@ -67,5 +67,5 @@ Step | Action
 ./bigsqltest.sh parttable | Create a huge partitoned table
 ./bigsqltest.sh partquery | Run a join query against partitoned table and get the time
 
-Compare both times and be amazed by the power of BigSQL !
+Compare both execution times and be amazed by the power of BigSQL !
 
